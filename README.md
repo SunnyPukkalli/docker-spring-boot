@@ -15,9 +15,9 @@
 `gcloud container clusters get-credentials docker-cluster-1 --zone <ZONE NAME>`
 
 ###### Kubernetes commands
-`kubectl get pods`
-`kubectl get services`
-`kubectl get deployment`
+- `kubectl get pods`
+- `kubectl get services`
+- `kubectl get deployment`
 
 ###### run docker images locally from GCR
 `docker run -ti -rm -p 8080:8095 gcr.io/$GOOGLE_CLOUD_PROJECT/docker-spring-boot:v1`
