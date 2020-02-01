@@ -5,6 +5,8 @@
 |/rest/docker/hello| Hello from Docker with IP Address and Hostname|
 |port exposed| 8095|
 
+###### Command to clone git project
+` git clone https://github.com/SunnyPukkalli/docker-spring-boot.git `
 
 ###### Command to build and push images to Google Container repository
 `mvn com.google.cloud.tools:jib-maven-plugin:build -Dimage=gcr.io/$GOOGLE_CLOUD_PROJECT/docker-spring-boot:v1`
