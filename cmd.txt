@@ -1,0 +1,1 @@
+com.google.cloud.tools:jib-maven-plugin:0.9.10:build -Dimage=$IMAGE_PATH
