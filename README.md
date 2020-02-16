@@ -30,3 +30,6 @@
 
 ###### Command to scale a deployment 
 `kubectl scale deployment docker-spring-boot --replicas=3`
+
+###### Command to deploy using YML files
+`kubectl apply -f <path to yml file>`
