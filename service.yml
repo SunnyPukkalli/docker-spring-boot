@@ -5,6 +5,8 @@ metadata:
   labels:
     name: docker-spring-boot
 spec:
+  type: ExternalName
+  externalName: my.url.example.com
   ports:
     - port: 8095
       targetPort: 8095

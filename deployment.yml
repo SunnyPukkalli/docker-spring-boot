@@ -1,9 +1,12 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: docker-spring-boot
 spec:
   replicas: 3
+  selector:
+    matchLabels:
+      app: docker-spring-boot      
   template:
     metadata:
       labels:
